@@ -6,7 +6,7 @@ For the company to do this we first need a better understanding of how the usage
 The data provided to use can be found here we will be looking at the data from 2022 in its entirety to see how trends change over the course of the year. The data contains a few fields where each ride started, ended, the time the ride started and the time the ride ended as well as the stations the ride started and ended at.
 Process
 First we loaded the data into Excel to quickly look through and find issues with the data that we can fix now before adding the dataset to a SQL database. We cleared out rows that were missing information or if we could find that information and fill in the blanks.
-We also checked formatting to make sure data input correctly. We did this via filters and cell formatting and using Trim to remove and spaces that could cause issues. After this the data added into BigQuery, Googles SQL platform based in the cloud.
+We also checked formatting to make sure data input correctly. We did this via filters and cell formatting and using Trim to remove and spaces that could cause issues. After this the data added into BigQuery, Googles SQL platform based in the cloud. Here is a link to a few of the queries used combining and transforming data.sql.
 Below you can see the different fields available to be used in the analysis process.
 
 ![image](https://github.com/zandril/Cyclistic_CaseStudy/assets/41587782/72fb3054-d4bf-46ee-8f5b-e74cf70b9f8b)
